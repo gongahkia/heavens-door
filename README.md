@@ -14,7 +14,12 @@
 
 ## Usage
 
-> TODO add installation and usage instructions here
+```console
+$ git clone https://github.com/gongahkia/heavens-door
+$ cd src
+$ chmod +x call.sh
+$ ./call.sh
+```
 
 ## Colorschemes
 
