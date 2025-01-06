@@ -1,12 +1,15 @@
 #!/bin/bash
 
+clear
 echo -e "Welcome to Heaven's Door, the locally hosted todo.txt notepad.\nReport any issues to @gongahkia on Github,\n"
 read -p "[Enter] to continue"
 
 if command -v python3 &> /dev/null && python3 -m http.server --help &> /dev/null; then
+    clear
     echo "Python3 with http.server is already installed."
     SERVER_CMD="python3 -m http.server"
 else
+    clear
     if command -v npm &> /dev/null && npm list -g http-server &> /dev/null; then
         echo "npm with http-server is already installed."
         SERVER_CMD="http-server"
@@ -31,6 +34,7 @@ else
     fi
 fi
 
+clear
 echo "Starting the local server..."
 $SERVER_CMD &
 echo "Heaven's Door notepad is ready at: http://localhost:8000"
