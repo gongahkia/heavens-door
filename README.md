@@ -10,8 +10,6 @@
 
 ## Screenshot
 
-> TODO add here
-
 ![](./asset/screenshot/generic.png)
 
 ## Usage
@@ -34,7 +32,7 @@ Find out more at [todotxt.org](http://todotxt.org/).
 | Gruvbox | ![](./asset/screenshot/gruvbox.png) |
 | Everforest | ![](./asset/screenshot/everforest.png) |
 | Ayu | ![](./asset/screenshot/ayu.png) |
-| Monokai | ![](./asset/screenshot/monokai.png) |
+| Mononoki | ![](./asset/screenshot/mononoki.png) |
 | Rose Pine | ![](./asset/screenshot/rosePine.png) |
 | Catpuccin | ![](./asset/screenshot/catpuccin.png) |
 | Tokyo Night | ![](./asset/screenshot/tokyoNight.png) |
@@ -51,4 +49,4 @@ Find out more at [todotxt.org](http://todotxt.org/).
 
 The name `Heavens Door` is in reference to [Heaven's Door](https://jojo.fandom.com/wiki/Heaven%27s_Door), [Rohan Kishibe's](https://jojo.fandom.com/wiki/Rohan_Kishibe) [stand](https://jojo.fandom.com/wiki/Stand) ability. [Heaven's door](https://jojo.fandom.com/wiki/Heaven%27s_Door) [first appears](https://www.reddit.com/r/StardustCrusaders/comments/xt5003/why_does_heavens_door_get_to_keep_its_name_while/) in [Diamond is Unbreakable](https://jojo.fandom.com/wiki/Stand), the fourth part of the [ongoing](https://www.reddit.com/r/StardustCrusaders/comments/15e13dg/is_jojos_bizarre_adventure_still_ongoing/?rdt=43328) manga series [JoJo's Bizarre Adventure](https://jojo.fandom.com/wiki/JoJo%27s_Bizarre_Adventure).
 
-![](./asset/stand.png)
+![](./asset/logo/stand.png)
