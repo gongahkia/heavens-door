@@ -5,11 +5,21 @@
 
 # `Heaven's Door` 📝
 
+[Todo.txt](#format) support for [notes.io](https://notes.io/).
+
 ## Rationale
 
-> TODO add here
+I've relied on [notes.io](https://notes.io/) for [offloading](https://cognitiveresearchjournal.springeropen.com/articles/10.1186/s41235-019-0201-4) and jotting down quick [snippets](https://dictionary.cambridge.org/dictionary/english/snippet) for longer than I can remember.
 
-![](./asset/screenshot/rationale.png)
+In particular, I prized it for its simplicity, ease of use and lack of unnecessary distractions. Really, I only ever had three gripes with [notes.io](https://notes.io/).
+
+1. No textual formatting support.
+2. Lack of color themes.
+3. Accidentally closing the [notes.io](https://notes.io/) tab would cause all content to be lost.
+
+With these considerations in mind, I created [Heaven's Door](https://github.com/gongahkia/heavens-door), a locally-hosted, buffer-secure, themed notepad with first-class [Todo.txt](#format) support that can be called from the terminal.  
+  
+To save you from those pesky slipups, [Heaven's Door](https://github.com/gongahkia/heavens-door) also automatically saves its contents to your clipboard upon tab closure.
 
 ## Screenshot
 
@@ -50,7 +60,7 @@ $ ./call.sh
 
 ## Format
 
-Heaven's Door adheres to the default `todo.txt` format specified [here](https://github.com/todotxt/todo.txt).  
+[Heaven's Door](https://github.com/gongahkia/heavens-door) adheres to the default `Todo.txt` format specified [here](https://github.com/todotxt/todo.txt).  
   
 Find out more at [todotxt.org](http://todotxt.org/).
 
@@ -62,7 +72,7 @@ Legal Disclaimer for [Heaven's Door](https://github.com/gongahkia/heavens-door) 
 
 **1. General Information**
 
-Welcome to Heaven's Door, the locally hosted TODO.txt notepad. By using this software, you agree to comply with and be bound by the following terms and conditions. If you do not agree with any part of these terms, please do not use this software.
+Welcome to Heaven's Door, the locally hosted Todo.txt notepad. By using this software, you agree to comply with and be bound by the following terms and conditions. If you do not agree with any part of these terms, please do not use this software.
 
 **2. No Warranty**
 
