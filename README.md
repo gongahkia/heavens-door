@@ -1,6 +1,9 @@
 [![](https://img.shields.io/badge/heavens_door_1.0.0-passing-green)](https://github.com/gongahkia/heavens-door/releases/tag/1.0.0)
 
-# `Heavens Door` 📝
+> [!IMPORTANT]  
+> Please read through [this disclaimer](#disclaimer) before using [Heaven's Door](https://github.com/gongahkia/heavens-door).  
+
+# `Heaven's Door` 📝
 
 ## Rationale
 
@@ -14,12 +17,19 @@
 
 ## Usage
 
+### Installation
+
 ```console
 $ git clone https://github.com/gongahkia/heavens-door ~/.heavens-door
 $ cd ~/.heavens-door/src
 $ chmod +x call.sh
 $ ./call.sh
 ```
+
+### Take notes
+
+1. Type `h` into your CLI.
+2. Navigate to [localhost:8000](http://localhost:8000) in your browser.
 
 ## Colorschemes
 
@@ -48,7 +58,50 @@ Find out more at [todotxt.org](http://todotxt.org/).
 
 ## Disclaimer
 
-> TODO
+Legal Disclaimer for [Heaven's Door](https://github.com/gongahkia/heavens-door) is effective from 6 January 2025.
+
+**1. General Information**
+
+Welcome to Heaven's Door, the locally hosted TODO.txt notepad. By using this software, you agree to comply with and be bound by the following terms and conditions. If you do not agree with any part of these terms, please do not use this software.
+
+**2. No Warranty**
+
+Heaven's Door is provided on an "as-is" basis without any warranties or guarantees of any kind, either express or implied. We do not warrant that the software will be uninterrupted or error-free, nor do we make any representations regarding the accuracy or reliability of the information provided through the software.
+
+**3. Limitation of Liability**
+
+To the fullest extent permitted by law, Heaven's Door and its developers shall not be liable for any direct, indirect, incidental, special, consequential, or punitive damages arising from your use of or inability to use this software. This includes but is not limited to damages for loss of profits, goodwill, use, data, or other intangible losses.
+
+**4. Intellectual Property Rights**
+
+All content and materials provided within Heaven's Door are protected by copyright and intellectual property laws. You may not reproduce, distribute, modify, or create derivative works based on the content without prior written permission from the copyright owner.
+
+**5. External Links**
+
+Heaven's Door may contain links to third-party websites. We do not endorse or assume any responsibility for the content or practices of these sites. We encourage users to review the terms and conditions and privacy policies of any third-party sites they visit.
+
+**6. User Responsibilities**
+
+By using Heaven's Door, you agree to:
+* Use the software only for lawful purposes.
+* Not engage in any conduct that restricts or inhibits anyone else's use or enjoyment of the software.
+* Ensure that any data entered into the software is accurate and does not violate any applicable laws.
+
+**7. Indemnification**
+
+You agree to indemnify and hold harmless Heaven's Door and its developers from any claims, losses, liabilities, damages, costs, or expenses (including reasonable attorneys' fees) arising out of your use of the software or violation of these terms.
+
+**8. Governing Law**
+
+This disclaimer shall be governed by and construed in accordance with the laws of Singapore. Any disputes arising out of or related to this disclaimer shall be resolved in the courts located within Singapore.
+
+**9. Changes to This Disclaimer**
+
+We reserve the right to modify this disclaimer at any time. Any changes will be effective immediately upon posting on this page. Your continued use of Heaven's Door after changes are made constitutes your acceptance of the new terms.
+
+**10. Contact Information**
+
+For any questions about this disclaimer or your use of Heaven's Door, please contact us at [@gongahkia](https://github.com/gongahkia) on Github.
 
 ## Reference
 
