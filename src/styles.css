@@ -1,18 +1,27 @@
+/* ----- GENERIC STYLING ----- */
+
+/* BODY */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: #f4f4f4;
 }
+
+/* CONTAINER */
 
 .container {
     max-width: 600px;
     margin: auto;
 }
 
+/* HEADER */
+
 h1 {
     text-align: center;
 }
+
+/* HIGHLIGHTING */
 
 .highlight {
     width: 100%;
@@ -20,10 +29,10 @@ h1 {
     pointer-events: none; /* Allow clicks to pass through */
     white-space: pre-wrap; /* Maintain whitespace and line breaks */
     overflow-wrap: break-word; /* Break long words if necessary */
-    margin-bottom: 10px; /* Optional: Add some space below the highlighted area */
 }
 
-/* Textarea styling */
+/* TEXTAREA */
+
 textarea {
     width: 100%;
     height: 300px;
@@ -35,42 +44,140 @@ textarea {
     opacity: 0; /* Completely hide the textarea */
 }
 
-/* Default theme */
+/* ----- COLORSCHEMES ----- */
+
+/* DEFAULT */
+
 .default {
-    background-color: white;
-    color: black;
+    background-color: #f4f4f4; /* Background */
+    color: #000; /* Text color */
 }
 
-/* Dark theme */
-.dark {
-    background-color: #333;
-    color: white;
+.default h1 {
+    color: #333; /* Header color */
 }
 
-/* Light theme */
-.light {
-    background-color: #fff3cd;
-    color: black;
+.default .priority { color: #ff8c00; }
+.default .date { color: #007bff; }
+.default .project { color: #28a745; }
+.default .context { color: #dc3545; }
+.default .description { color: #000; }
+
+/* GRUVBOX */
+
+.gruvbox {
+    background-color: #282828; /* Background */
+    color: #ebdbb2; /* Text color */
 }
 
-/* Highlighting styles */
-.priority {
-    color: #ff8c00; /* Orange for priority indicators */
+.gruvbox h1 {
+    color: #fb4934; /* Header color */
 }
 
-.date {
-    color: #007bff; /* Blue for dates */
+.gruvbox .priority { color: #fe8019; }
+.gruvbox .date { color: #83a598; }
+.gruvbox .project { color: #b8bb26; }
+.gruvbox .context { color: #d3869b; }
+.gruvbox .description { color: #ebdbb2; }
+
+/* EVERFOREST */
+
+.everforest {
+    background-color: #2b3339;
+    color: #d3c6aa;
 }
 
-.project {
-    color: #28a745; /* Green for projects */
+.everforest h1 {
+    color: #e67e80;
 }
 
-.context {
-    color: #dc3545; /* Red for contexts */
+.everforest .priority { color: #d19a66; }
+.everforest .date { color: #7aa2f7; }
+.everforest .project { color: #a3be8c; }
+.everforest .context { color: #bf616a; }
+.everforest .description { color: #d3c6aa; }
+
+/* AYU */
+
+.ayu {
+    background-color: #1f1f1f;
+    color: #f8f8f2;
 }
 
-.description {
-    color: #000; /* Default text color for description */
+.ayu h1 {
+    color: #ff79c6;
 }
 
+.ayu .priority { color: #ffb86c; }
+.ayu .date { color: #50fa7b; }
+.ayu .project { color: #8be9fd; }
+.ayu .context { color: #ff5555; }
+.ayu .description { color: #f8f8f2; }
+
+/* MONONOKI */
+
+.mononoki {
+    background-color: #282a36; /* Background */
+    color: #f8f8f2; /* Text Color */
+}
+
+.mononoki h1 {
+    color: #bd93f9; /* Header Color */
+}
+
+.mononoki .priority { color: #ff79c6; } /* Pink for priority indicators */
+.mononoki .date { color: #50fa7b; } /* Green for dates */
+.mononoki .project { color: #8be9fd; } /* Cyan for projects */
+.mononoki .context { color: #ff5555; } /* Red for contexts */
+.mononoki .description { color: #f8f8f2; } /* Default text for description */
+
+/* ROSE PINE */
+
+.rose-pine {
+    background-color: #191724; /* Background */
+    color: #e0def4; /* Text Color */
+}
+
+.rose-pine h1 {
+    color: #eb6f92; /* Header Color */
+}
+
+.rose-pine .priority { color: #ffcc66; } /* Yellow for priority indicators */
+.rose-pine .date { color: #3e8ef7; } /* Blue for dates */
+.rose-pine .project { color: #a3be8c; } /* Green for projects */
+.rose-pine .context { color: #ff6c9e; } /* Pink for contexts */
+.rose-pine .description { color: #e0def4; } /* Default text for description */
+
+/* CATPUCCIN */
+
+.catpuccin {
+    background-color: #1e1e2e; /* Background */
+    color: #d9d7e5; /* Text Color */
+}
+
+.catpuccin h1 {
+    color: #ff77a0; /* Header Color */
+}
+
+.catpuccin .priority { color:#ffcc66;} /* Yellow for priority indicators*/
+.catpuccin .date {color:#9ccfd8;}     /* Cyan for dates*/
+.catpuccin .project {color:#78dce8;}  /* Light Blue for projects*/
+.catpuccin .context {color:#ff6c9e;}   /* Pink for contexts*/
+.catpuccin .description {color:#d9d7e5;}/* Default text for description*/
+
+/* TOKYO NIGHT */
+
+.tokyo-night {
+   background-color:#1a1b26;
+   Color:#c0caf5;
+}
+
+.tokyo-night h1{
+   Color:#ff77ac ;/* Header Color*/
+}
+
+.tokyo-night .priority{Color:#ffcc66;}/* Yellow for priority indicators*/
+.tokyo-night .date{Color:#7aa2f7;}/* Blue for dates*/
+.tokyo-night .project{Color:#a3be8c;}/* Green for projects*/
+.tokyo-night .context{Color:#ff5555;}/* Red for contexts*/
+.tokyo-night.description{Color:#c0caf5;}/* Default text for description*/

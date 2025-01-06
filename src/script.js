@@ -16,16 +16,15 @@ function updateHighlight() {
     highlight.innerHTML = highlightedText; 
 }
 
-
 function changeColorScheme() {
     const scheme = document.getElementById('color-scheme').value;
-    editor.classList.remove('default', 'dark', 'light');
-    editor.classList.add(scheme);
+    document.body.classList.remove('gruvbox', 'everforest', 'ayu', 'mononoki', 'rose-pine', 'catpuccin', 'tokyo-night');
+    document.body.classList.add(scheme);
 }
+
 
 window.addEventListener('beforeunload', () => {
     navigator.clipboard.writeText(editor.value)
         .then(() => console.log('Text copied to clipboard!'))
         .catch(err => console.error('Failed to copy text:', err));
 });
-

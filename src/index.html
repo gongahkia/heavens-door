@@ -6,7 +6,7 @@
     <title>TODO.txt Notepad with Highlighting</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="default"> 
     <div class="container">
         <h1>TODO.txt Notepad</h1>
         <div class="highlight" id="highlight"></div>
@@ -15,8 +15,13 @@
             <label for="color-scheme">Choose Color Scheme:</label>
             <select id="color-scheme" onchange="changeColorScheme()">
                 <option value="default">Default</option>
-                <option value="dark">Dark</option>
-                <option value="light">Light</option>
+                <option value="gruvbox">Gruvbox</option>
+                <option value="everforest">Everforest</option>
+                <option value="ayu">Ayu</option>
+                <option value="mononoki">Mononoki</option>
+                <option value="rose-pine">Rose Pine</option>
+                <option value="catpuccin">Catpuccin</option>
+                <option value="tokyo-night">Tokyo Night</option>
             </select>
         </div>
     </div>
