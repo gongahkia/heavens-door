@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO.txt Notepad with Highlighting</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>TODO.txt Notepad</h1>
+        <div class="highlight" id="highlight"></div>
+        <textarea id="editor" placeholder="Write your TODO.txt notes here..." oninput="updateHighlight()"></textarea>
+        <div id="color-scheme-selector">
+            <label for="color-scheme">Choose Color Scheme:</label>
+            <select id="color-scheme" onchange="changeColorScheme()">
+                <option value="default">Default</option>
+                <option value="dark">Dark</option>
+                <option value="light">Light</option>
+            </select>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
