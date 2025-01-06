@@ -237,15 +237,15 @@ textarea {
 
 .nord {
    background-color:#2e3440 ;/* Background*/
-   Color=#eceff4 ;/* Text Color*/
+   Color:#eceff4 ;/* Text Color*/
 }
 
 .nord h1{
-   Color=#81a1c1 ;/* Header Color*/
+   Color:#81a1c1 ;/* Header Color*/
 }
 
-.nord .priority{Color=#bf616a;}/* Red for priority indicators*/
-.nord .date{Color=#88c0d0;}/* Cyan for dates*/
-.nord .project{Color=#a3be8c;}/* Green for projects*/
-.nord .context{Color=#ebcb8b;}/* Yellow for contexts*/
-.nord .description{Color=#eceff4;}/* Default text for description*/
+.nord .priority{Color:#bf616a;}/* Red for priority indicators*/
+.nord .date{Color:#88c0d0;}/* Cyan for dates*/
+.nord .project{Color:#a3be8c;}/* Green for projects*/
+.nord .context{Color:#ebcb8b;}/* Yellow for contexts*/
+.nord .description{Color:#eceff4;}/* Default text for description*/
