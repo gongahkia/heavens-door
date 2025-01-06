@@ -15,8 +15,8 @@
 ## Usage
 
 ```console
-$ git clone https://github.com/gongahkia/heavens-door
-$ cd src
+$ git clone https://github.com/gongahkia/heavens-door ~/.heavens-door
+$ cd ~/.heavens-door/src
 $ chmod +x call.sh
 $ ./call.sh
 ```

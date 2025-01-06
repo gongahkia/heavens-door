@@ -35,6 +35,24 @@ else
 fi
 
 clear
+
+if [[ "$SHELL" == *"zsh"* ]]; then
+    ALIAS_FILE="$HOME/.zshrc"
+else
+    ALIAS_FILE="$HOME/.bashrc"
+fi
+
+if ! grep -q "alias startserver=" "$ALIAS_FILE"; then
+    echo "Adding alias to $ALIAS_FILE..."
+    echo "alias h='cd ~/.heavens-door/src && $SERVER_CMD'" >> "$ALIAS_FILE"
+else
+    echo "Alias 'h' already exists in $ALIAS_FILE."
+fi
+
+echo "Reloading shell configuration..."
+source "$ALIAS_FILE"
+echo "Setup complete! You can now run 'h' from any directory to open Heaven's Door."
+
 echo "Starting the local server..."
 $SERVER_CMD &
 echo "Heaven's Door notepad is ready at: http://localhost:8000"
