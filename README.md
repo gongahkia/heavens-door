@@ -16,14 +16,6 @@
 
 > TODO add installation and usage instructions here
 
-## Format
-
-Heaven's Door adheres to the default `todo.txt` format specified [here](https://github.com/todotxt/todo.txt).  
-  
-Find out more at [todotxt.org](http://todotxt.org/).
-
-![](./asset/screenshot/reference.svg)
-
 ## Colorschemes
 
 | Colorscheme | Example |
@@ -40,6 +32,14 @@ Find out more at [todotxt.org](http://todotxt.org/).
 | One Candy Dark | ![](./asset/screenshot/oneCandyDark.png) |
 | Solarized | ![](./asset/screenshot/solarized.png) |
 | Nord | ![](./asset/screenshot/nord.png) |
+
+## Format
+
+Heaven's Door adheres to the default `todo.txt` format specified [here](https://github.com/todotxt/todo.txt).  
+  
+Find out more at [todotxt.org](http://todotxt.org/).
+
+![](./asset/screenshot/reference.svg)
 
 ## Disclaimer
 
