@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TODO.txt Notepad with Highlighting</title>
+    <title>Heaven's Door</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body class="default"> 
     <div class="container">
         <h1>TODO.txt Notepad</h1>
-        <div class="highlight" id="highlight"></div>
-        <textarea id="editor" placeholder="Write your TODO.txt notes here..." oninput="updateHighlight()"></textarea>
+        <div id="credit">Made by <a href="https://github.com/gongahkia">@gongahkia</a></div>
+        <br>
         <div id="color-scheme-selector">
             <label for="color-scheme">Choose Color Scheme:</label>
             <select id="color-scheme" onchange="changeColorScheme()">
@@ -28,6 +28,9 @@
                 <option value="nord">Nord</option>
             </select>
         </div>
+        <br>
+        <div class="highlight" id="highlight"></div>
+        <textarea id="editor" placeholder="Write your TODO.txt notes here..." oninput="updateHighlight()"></textarea>
     </div>
     <script src="script.js"></script>
 </body>

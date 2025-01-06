@@ -21,6 +21,29 @@ h1 {
     text-align: center;
 }
 
+/* CREDIT */
+
+#credit {
+    text-align: center;
+}
+
+/* COLOR SCHEME SELECTOR */
+
+#color-scheme-selector {
+    text-align: center;
+}
+
+/* ANCHOR TAGS */
+
+a {
+    text-decoration: underline; 
+    color: inherit; 
+}
+
+a:hover, a:focus {
+    text-decoration: underline; 
+}
+
 /* HIGHLIGHTING */
 
 .highlight {

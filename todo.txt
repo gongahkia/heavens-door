@@ -1,13 +1,20 @@
-Most functionality is already there
+x (A) Now just make cosmetic changes
+x (A) Add colorschemes 
+x (A) 2025-01-06 Create a locally hosted TODO.txt editor with syntax highlighting +HeavensDoor @Development due:2025-02-01
+x (B) 2025-01-06 Implement no permanent storage, operates similar to notes.io +HeavensDoor @Development
+x (D) 2025-01-06 Add optional ability to save data to browser storage +HeavensDoor @Development
 
-Now just make cosmetic changes
+(C) 2025-01-06 Add feature to auto-copy text buffer to clipboard on browser close +HeavensDoor @Development
+(C) 2025-01-06 Allow launching via CLI with single-letter alias (e.g., "n") +HeavensDoor @Development
+(C) 2025-01-06 Add differentiated deployment that allows deploying from the shell for all platforms, Windows under WSL, Macbook and Linux @Deployment
 
-Add colorschemes
+x (C) 2025-01-06 Add support for pluggable colorschemes +HeavensDoor @Development
 
-See whether I can add any interesting CSS animations
+(D) 2025-01-06 See whether I can add any interesting CSS animations @Development
 
-add a link that directs to the todo.txt format as required
+(E) In the README.md, add a link that directs to the todo.txt format as required @Admin
+(E) Reference Notes.io in the README.md that only uses local storage within the temporary web buffer @Admin
+(E) Reference "Heavens-door" in the README.md referencing JoJo's Rohan Kishibe +HeavensDoor @Admin
+(E) Add colorscheme and associated screenshots in the README.md @Admin
 
-Then allow deploying from the shell for all platforms, Windows under WSL, Macbook and Linux
-
-add installation script
+(F) Implement Vim and Emacs keybind options +HeavensDoor @Future
