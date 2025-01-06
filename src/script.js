@@ -18,7 +18,7 @@ function updateHighlight() {
 
 function changeColorScheme() {
     const scheme = document.getElementById('color-scheme').value;
-    document.body.classList.remove('gruvbox', 'everforest', 'ayu', 'mononoki', 'rose-pine', 'catpuccin', 'tokyo-night');
+    document.body.classList.remove('gruvbox', 'everforest', 'ayu', 'mononoki', 'rose-pine', 'catpuccin', 'tokyo-night', 'dracula', 'one-candy-dark', 'solarized', 'nord');
     document.body.classList.add(scheme);
 }
 

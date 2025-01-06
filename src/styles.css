@@ -181,3 +181,71 @@ textarea {
 .tokyo-night .project{Color:#a3be8c;}/* Green for projects*/
 .tokyo-night .context{Color:#ff5555;}/* Red for contexts*/
 .tokyo-night .description{Color:#c0caf5;}/* Default text for description*/
+
+/* DRACULA */
+
+.dracula {
+   background-color:#282a36 ;/* Background*/
+   Color:#f8f8f2 ;/* Text Color*/
+}
+
+.dracula h1{
+   Color:#ff79c6 ;/* Header Color*/
+}
+
+.dracula .priority{Color:#ff5555;}/* Red for priority indicators*/
+.dracula .date{Color:#50fa7b;}/* Green for dates*/
+.dracula .project{Color:#bd93f9;}/* Purple for projects*/
+.dracula .context{Color:#6272a4;}/* Blue for contexts*/
+.dracula .description{Color:#f8f8f2;}/* Default text for description*/
+
+/* ONE CANDY DARK */
+
+.one-candy-dark {
+   background-color:#21252b ;/* Background*/
+   Color:#abb2bf ;/* Text Color*/
+}
+
+.one-candy-dark h1{
+   Color:#e06c75 ;/* Header Color*/
+}
+
+.one-candy-dark .priority{Color:#d19a66;}/* Orange for priority indicators*/
+.one-candy-dark .date{Color:#61afef;}/* Blue for dates*/
+.one-candy-dark .project{Color:#98c379;}/* Green for projects*/
+.one-candy-dark .context{Color:#c678dd;}/* Purple for contexts*/
+.one-candy-dark .description{Color:#abb2bf;}/* Default text for description*/
+
+/* SOLARIZED */
+
+.solarized {
+   background-color:#002b36 ;/* Background*/
+   Color:#839496 ;/* Text Color*/
+}
+
+.solarized h1{
+   Color:#268bd2 ;/* Header Color*/
+}
+
+.solarized .priority{Color:#dc322f;}/* Red for priority indicators*/
+.solarized .date{Color:#859900;}/* Green for dates*/
+.solarized .project{Color:#b58900;}/* Yellow for projects*/
+.solarized .context{Color:#cb4b16;}/* Orange for contexts*/
+.solarized .description{Color:#839496;}/* Default text for description*/
+
+/* NORD */
+
+.nord {
+   background-color:#2e3440 ;/* Background*/
+   Color=#eceff4 ;/* Text Color*/
+}
+
+.nord h1{
+   Color=#81a1c1 ;/* Header Color*/
+}
+
+.nord .priority{Color=#bf616a;}/* Red for priority indicators*/
+.nord .date{Color=#88c0d0;}/* Cyan for dates*/
+.nord .project{Color=#a3be8c;}/* Green for projects*/
+.nord .context{Color=#ebcb8b;}/* Yellow for contexts*/
+.nord .description{Color=#eceff4;}/* Default text for description*/
