@@ -34,8 +34,10 @@ textarea {
     width: 100%;
     height: 300px; /* Match height of textarea */
     pointer-events: none; /* Allow clicks to pass through */
-    white-space: pre-wrap; /* Maintain whitespace */
+    white-space: pre-wrap; /* Maintain whitespace and line breaks */
+    overflow-wrap: break-word; /* Break long words if necessary */
 }
+
 
 /* Default theme */
 .default {
@@ -56,23 +58,23 @@ textarea {
 }
 
 /* Highlighting styles */
-.todo {
-    color: #000; /* Default text color */
+.priority {
+    color: #ff8c00; /* Orange for priority indicators */
+}
+
+.date {
+    color: #007bff; /* Blue for first date */
 }
 
 .project {
-    color: #007bff; /* Blue for projects */
+    color: #28a745; /* Green for projects */
 }
 
 .context {
-    color: #28a745; /* Green for contexts */
+    color: #dc3545; /* Red for contexts */
 }
 
-.key-value {
-    color: #dc3545; /* Red for key-value pairs */
-}
-
-.priority {
-    color: #ff8c00; /* Orange for priority indicators */
+.description {
+    color: #000; /* Default text color for description */
 }
 

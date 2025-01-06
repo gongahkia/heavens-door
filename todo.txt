@@ -1,0 +1,11 @@
+Most functionality is already there
+
+Now just make cosmetic changes
+
+Add colorschemes
+
+See whether I can add any interesting CSS animations
+
+add a link that directs to the todo.txt format as required
+
+Then allow deploying from the shell for all platforms, Windows under WSL, Macbook and Linux
