@@ -14,6 +14,16 @@ h1 {
     text-align: center;
 }
 
+.highlight {
+    width: 100%;
+    height: auto; /* Allow height to adjust based on content */
+    pointer-events: none; /* Allow clicks to pass through */
+    white-space: pre-wrap; /* Maintain whitespace and line breaks */
+    overflow-wrap: break-word; /* Break long words if necessary */
+    margin-bottom: 10px; /* Optional: Add some space below the highlighted area */
+}
+
+/* Textarea styling */
 textarea {
     width: 100%;
     height: 300px;
@@ -21,23 +31,9 @@ textarea {
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    position: relative; /* Required for overlay positioning */
     background-color: transparent; /* Make background transparent */
     opacity: 0; /* Completely hide the textarea */
 }
-
-/* Highlighting overlay */
-.highlight {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 300px; /* Match height of textarea */
-    pointer-events: none; /* Allow clicks to pass through */
-    white-space: pre-wrap; /* Maintain whitespace and line breaks */
-    overflow-wrap: break-word; /* Break long words if necessary */
-}
-
 
 /* Default theme */
 .default {
@@ -63,7 +59,7 @@ textarea {
 }
 
 .date {
-    color: #007bff; /* Blue for first date */
+    color: #007bff; /* Blue for dates */
 }
 
 .project {
