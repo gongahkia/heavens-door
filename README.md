@@ -5,7 +5,7 @@
 
 # `Heaven's Door` 📝
 
-[Todo.txt](#format) support for [notes.io](https://notes.io/).
+Write it down to get it done.
 
 ## Rationale
 
